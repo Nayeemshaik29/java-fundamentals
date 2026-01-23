@@ -1,4 +1,4 @@
-package com.java.interviewquestion;
+package com.java.dailyclass;
 
 import java.util.Scanner;
 
@@ -21,5 +21,8 @@ public class StudentScore {
         System.out.println("Sum of Student Marks : " + sum);
         float avg = (float) sum / 5;
         System.out.println("Average of Student Marks : " + avg);
+        if(avg > 90){
+
+        }
     }
 }

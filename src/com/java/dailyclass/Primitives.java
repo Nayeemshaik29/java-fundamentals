@@ -1,4 +1,4 @@
-package com.java.interviewquestion;
+package com.java.dailyclass;
 
 public class Primitives {
     public static void main(String[] args) {

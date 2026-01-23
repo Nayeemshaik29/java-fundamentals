@@ -1,4 +1,4 @@
-package com.java.interviewquestion;
+package com.java.dailyclass;
 
 import java.util.Scanner;
 
