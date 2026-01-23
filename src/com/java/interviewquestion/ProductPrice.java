@@ -12,8 +12,8 @@ public class ProductPrice {
         float discount = sc.nextFloat();
 
         float centralTaxRate, stateTaxRate, discountAmount, discountedPrice, totalTax, finalPricePerItem, totalPrice, savedAmount;
-        centralTaxRate = 2.5f;
-        stateTaxRate = 2.5f;
+        centralTaxRate = 2.5F;
+        stateTaxRate = 2.5F;
         discountAmount = productPrice * discount / 100;
         discountedPrice = productPrice - discountAmount;
         totalTax = centralTaxRate + stateTaxRate;
@@ -28,6 +28,7 @@ public class ProductPrice {
         savedAmount = discountAmount * quantity;
         System.out.println("Total Price : " + totalPrice);
         System.out.println("You Saved : " + savedAmount);
+
 
 
         sc.close();

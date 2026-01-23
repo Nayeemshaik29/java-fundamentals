@@ -1,4 +1,4 @@
-package com.java.interviewquestion;
+package com.java.loops.level1;
 
 import java.util.Scanner;
 
